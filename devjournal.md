@@ -42,20 +42,20 @@ time-stamp headers to this file.
     let Note_loaded = 1
 ```
 
-  - Maybe its time to turn this into a vimscript so it can  be invoked from
-    inside vim.
+- Maybe its time to turn this into a vimscript so it can  be invoked from
+  inside vim.
 
- - Now we're using Sparkleshare, we don't use closing the editor as a trigger
-   for syncing, just saving.  (Actually that was the case with Ubuntu One as
-   well) but there is no reason not to edit this file from within a larger gvim
-   session, since any save will result in it being saved. So the external entry
-   point -- from the shell or via key-binding -- could try and open this file
-   in a tab in an existing gvim server if possible. 
+- Now we're using Sparkleshare, we don't use closing the editor as a trigger
+  for syncing, just saving.  (Actually that was the case with Ubuntu One as
+  well) but there is no reason not to edit this file from within a larger gvim
+  session, since any save will result in it being saved. So the external entry
+  point -- from the shell or via key-binding -- could try and open this file in
+  a tab in an existing gvim server if possible. 
 
- - In fact if it uses gvim server, we can still use the external key binding
-   and if there's a bit Gvim session running somewhere it would just spawn a
-   new tab with this file in. And if it already has it open, it should append
-   the datestamp. Might need a bit of tuning.
+- In fact if it uses gvim server, we can still use the external key binding and
+  if there's a bit Gvim session running somewhere it would just spawn a new tab
+  with this file in. And if it already has it open, it should append the
+  datestamp. Might need a bit of tuning.
 
 
 
