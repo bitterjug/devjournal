@@ -13,6 +13,8 @@ Looks like it's working.
 
   - It creates a new key pair and puts the public one in `~/SparkleShare`
 
+Here, for reference, is WIP on a Vimscript version of the code that adds time-stamp headers to this file.
+
 ```VimL
 " Note
 "
