@@ -19,26 +19,28 @@ Looks like it's working.
 Here, for reference, is WIP on a Vimscript version of the code that adds
 time-stamp headers to this file.
 
-```VimL
-" Note
-"
+    ```Viml
+    " Note
+    "
 
-if exists('Note_loaded')
-    delfun Note_add
-endif
-
-function Note_add()
-    let l:date = '## ' . strftime('%F %A')
-    let l:time = '### ' . strftime('%R')
-    let l:lastline = line('$')
-    call append(l:lastline, ['', l:time, '', ''])
-    if !search(date,'w')
-        call append(l:lastline, ['', l:date])
+    if exists('Note_loaded')
+        delfun Note_add
     endif
-endfunction
 
-let Note_loaded = 1
-```
+    function Note_add()
+        let l:date = '## ' . strftime('%F %A')
+        let l:time = '### ' . strftime('%R')
+        let l:lastline = line('$')
+        call append(l:lastline, ['', l:time, '', ''])
+        if !search(date,'w')
+            call append(l:lastline, ['', l:date])
+        endif
+    endfunction
+
+    let Note_loaded = 1
+    ```
+
+-  Maybe its time to turn this into a vimscript so it can 
 
  - Now we're using Sparkleshare, we don't use closing the editor as a trigger
    for syncing, just saving.  (Actually that was the case with Ubuntu One as
@@ -47,4 +49,3 @@ let Note_loaded = 1
    entry point -- from the shell or via key-binding -- could try and open this
    file in a tab in an existing gvim server if possible. And 
 
-Maybe its time to turn this into a vimscript so it can 
