@@ -1,4 +1,4 @@
-
+<!-- vim: ft=ghmarkdown -->
 
 ## 2014-01-19 14:12 Sunday
 
@@ -54,5 +54,9 @@ time-stamp headers to this file.
    and if there's a bit Gvim session running somewhere it would just spawn a
    new tab with this file in. And if it already has it open, it should append
    the datestamp. Might need a bit of tuning.
+
+
+
+## 2014-01-19 16:50 Sunday
 
 
