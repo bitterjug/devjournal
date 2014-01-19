@@ -1,4 +1,5 @@
-<!-- vim: ft=ghmarkdown 
+<!-- 
+vim: ft=ghmarkdown 
 -->
 
 ## 2014-01-19 14:12 Sunday
