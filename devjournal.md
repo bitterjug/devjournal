@@ -13,7 +13,11 @@ Looks like it's working.
 
   - It creates a new key pair and puts the public one in `~/SparkleShare`
 
-Here, for reference, is WIP on a Vimscript version of the code that adds time-stamp headers to this file.
+  - Install this key with Github to enable Sparkleshare.
+
+
+Here, for reference, is WIP on a Vimscript version of the code that adds
+time-stamp headers to this file.
 
 ```VimL
 " Note
@@ -35,3 +39,12 @@ endfunction
 
 let Note_loaded = 1
 ```
+
+ - Now we're using Sparkleshare, we don't use closing the editor as a trigger
+   for syncing, just saving.  (Actually that was the case with Ubuntu One as
+   well) but there is no reason not to edit this file from within a larger
+   gvim session, since any save will result in it being saved. So the external
+   entry point -- from the shell or via key-binding -- could try and open this
+   file in a tab in an existing gvim server if possible. And 
+
+Maybe its time to turn this into a vimscript so it can 
