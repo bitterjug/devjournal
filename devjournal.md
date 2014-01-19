@@ -41,8 +41,8 @@ time-stamp headers to this file.
     let Note_loaded = 1
 ```
 
- -  Maybe its time to turn this into a vimscript so it can  be invoked from
-    inside vim.
+ - Maybe its time to turn this into a vimscript so it can  be invoked from
+   inside vim.
 
  - Now we're using Sparkleshare, we don't use closing the editor as a trigger
    for syncing, just saving.  (Actually that was the case with Ubuntu One as
@@ -56,12 +56,5 @@ time-stamp headers to this file.
    new tab with this file in. And if it already has it open, it should append
    the datestamp. Might need a bit of tuning.
 
-
-
-## 2014-01-19 16:50 Sunday
-
-
-
-## 2014-01-19 16:53 Sunday
 
 
