@@ -19,6 +19,7 @@ Looks like it's working.
 Here, for reference, is WIP on a Vimscript version of the code that adds
 time-stamp headers to this file.
 
+``` VimL
     " Note
     "
 
@@ -37,6 +38,7 @@ time-stamp headers to this file.
     endfunction
 
     let Note_loaded = 1
+```
 
  -  Maybe its time to turn this into a vimscript so it can  be invoked from
     inside vim.
@@ -52,7 +54,5 @@ time-stamp headers to this file.
    and if there's a bit Gvim session running somewhere it would just spawn a
    new tab with this file in. And if it already has it open, it should append
    the datestamp. Might need a bit of tuning.
-
-## 2014-01-19 15:27 Sunday
 
 
