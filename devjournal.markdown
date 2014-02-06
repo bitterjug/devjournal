@@ -65,6 +65,12 @@ time-stamp headers to this file.
    functions .
 
  * Create overview and results v-pages in separate folder
+ pages/result.js
+
+    create the right result from the results collection
+    and use it to instantiate a view to present it
+
+ pages/overview.js
 
  * Main would use a router to call the main function from the
    apropriate page.
