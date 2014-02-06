@@ -79,3 +79,5 @@ time-stamp headers to this file.
  collections 
 
 
+* in principle when creating a result, we could also create an empty
+  indicator  at the server side (because result without indicator is not useful)
