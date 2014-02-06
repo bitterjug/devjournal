@@ -57,5 +57,19 @@ time-stamp headers to this file.
   with this file in. And if it already has it open, it should append the
   datestamp. Might need a bit of tuning.
 
+# v4c
+
+## 2014-02-06 14:29 Thursday
+
+ * Use a backbone router -- to trigger different entry point 
+   functions .
+
+ * Create overview and results v-pages in separate folder
+
+ * Main would use a router to call the main function from the
+   apropriate page.
+
+ * Main would load the relevant data from Aptivate.data into
+ collections 
 
 
