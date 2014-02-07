@@ -56,28 +56,3 @@ time-stamp headers to this file.
   if there's a bit Gvim session running somewhere it would just spawn a new tab
   with this file in. And if it already has it open, it should append the
   datestamp. Might need a bit of tuning.
-
-# v4c
-
-## 2014-02-06 14:29 Thursday
-
- * Use a backbone router -- to trigger different entry point 
-   functions .
-
- * Create overview and results v-pages in separate folder
- pages/result.js
-
-    create the right result from the results collection
-    and use it to instantiate a view to present it
-
- pages/overview.js
-
- * Main would use a router to call the main function from the
-   apropriate page.
-
- * Main would load the relevant data from Aptivate.data into
- collections 
-
-
-* in principle when creating a result, we could also create an empty
-  indicator  at the server side (because result without indicator is not useful)
