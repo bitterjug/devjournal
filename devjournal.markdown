@@ -64,7 +64,7 @@ time-stamp headers to this file.
  * Use a backbone router -- to trigger different entry point 
    functions .
 
- * Create overview and results v-pages in separate folder
+ * Create overview and results v-pages in sndeparate folder
  pages/result.js
 
     create the right result from the results collection
@@ -81,3 +81,13 @@ time-stamp headers to this file.
 
 * in principle when creating a result, we could also create an empty
   indicator  at the server side (because result without indicator is not useful)
+
+## 2014-02-19 20:01 Wednesday
+
+
+table
+    thead
+    tbody
+        subindicator list -- row
+            subindicator container : first col, subsequent columns
+
