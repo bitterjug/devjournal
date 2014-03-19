@@ -91,3 +91,9 @@ table
         subindicator list -- row
             subindicator container : first col, subsequent columns
 
+
+## 2014-03-19 01:21 Wednesday
+
+Load bluetooth sound devices once paired:
+
+     pactl load-module module-bluetooth-discover 
