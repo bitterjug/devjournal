@@ -97,3 +97,10 @@ table
 Load bluetooth sound devices once paired:
 
      pactl load-module module-bluetooth-discover 
+
+## 2014-04-19 Saturday
+
+### 22:09
+
+Working on note.sh again. 
+USe vim function 
