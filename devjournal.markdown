@@ -108,3 +108,9 @@ USe vim function
 ### 22:15
 
 Yay, it works?
+
+### 22:18
+
+* Made a vim plugin for the function
+* Use Compiz command addon to bins Alt-Shift-N (Same as in Xmonad)
+* Updated freshrc.bitterjug to fetch the version of note.sh from bitterjug/vim-notebook instead of the old one
