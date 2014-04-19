@@ -104,3 +104,7 @@ Load bluetooth sound devices once paired:
 
 Working on note.sh again. 
 USe vim function 
+
+### 22:15
+
+Yay, it works?
