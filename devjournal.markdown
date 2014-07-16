@@ -114,3 +114,28 @@ Yay, it works?
 * Made a vim plugin for the function
 * Use Compiz command addon to bins Alt-Shift-N (Same as in Xmonad)
 * Updated freshrc.bitterjug to fetch the version of note.sh from bitterjug/vim-notebook instead of the old one
+
+## 2014-07-16 Wednesday
+
+### 21:59
+
+Looking at the source of Freeplane 1.4.1 alpha.  The functions called by arrow
+keys to select up,down, left, right are `selectUp(...)`, `selectDown(...)`,
+etc.  The bindings are defined in
+`/freeplane/freeplane/src/org/freeplane/view/swing/ui/DefaultNodeKeyListener.java`,
+and I expect the reason they have not been made available in the interface is because
+they take a paraneter 'continuous' which appears to be se when shift is held down
+to extend the selection rather than just change it. 
+
+I think I could 
+
+a) just hack the source to bind `hjkl` at a low level to these as well as to
+the arrow keys which is a hack, but would make me happy until they change this
+source.
+
+b) Write a plugin that exposes these functions to Groovy -- maybe Groofy can
+already call them?  You'd need to know if shift was being held down, I mean I'd
+need to bind the shift version separately but that should be possoible.
+
+ 
+
