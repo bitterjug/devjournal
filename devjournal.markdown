@@ -137,5 +137,8 @@ b) Write a plugin that exposes these functions to Groovy -- maybe Groofy can
 already call them?  You'd need to know if shift was being held down, I mean I'd
 need to bind the shift version separately but that should be possoible.
 
- 
+### 22:43
+
+The swing map view component doesn't appear in the current proxy interface
+but maybe I can just call it from Groovy?
 
