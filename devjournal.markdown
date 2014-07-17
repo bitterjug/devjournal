@@ -142,3 +142,15 @@ need to bind the shift version separately but that should be possoible.
 The swing map view component doesn't appear in the current proxy interface
 but maybe I can just call it from Groovy?
 
+
+### 22:48
+
+This appears to do what I want:
+```groovy
+import org.freeplane.features.mode.Controller;
+
+mapView = Controller.getCurrentController().getMapViewManager().getMapViewComponent();
+
+mapView.selectDown(false)
+```
+
