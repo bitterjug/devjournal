@@ -146,6 +146,7 @@ but maybe I can just call it from Groovy?
 ### 22:48
 
 This appears to do what I want:
+
 ```groovy
 import org.freeplane.features.mode.Controller;
 
@@ -153,4 +154,14 @@ mapView = Controller.getCurrentController().getMapViewManager().getMapViewCompon
 
 mapView.selectDown(false)
 ```
+
+
+## 2014-10-02 Thursday
+
+### 21:20
+
+CMS Made Simple
+
+cmsms in ~/.tmp/
+
 
