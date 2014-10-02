@@ -160,13 +160,117 @@ mapView.selectDown(false)
 
 ### 21:20
 
-CMS Made Simple
+CMS Made Simple-- separate News categories for Events
 
 cmsms in `~/.tmp/`
 
 Mysql db: cmsms/cmsms
 
 add 'cmsms.localhost' to /etc/hosts and add cmsms.conf to /etc/apache2/sites-available
+
+Install site.
+
+    {news number='5' category='Events'}
+
+Note that `doc/htaccess.txt` should be installed as a `.htaccess` to enable browse mage caching.
+
+* [ ] Add custom fields
+- Day Month Year, etc.
+* [ ] Create a new default template which does not render custom fields.
+* [ ] Set that as default
+* [ ] Create a new template that renders the events how you want them
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
