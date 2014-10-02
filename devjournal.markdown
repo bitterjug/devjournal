@@ -166,4 +166,7 @@ cmsms in `~/.tmp/`
 
 Mysql db: cmsms/cmsms
 
+add 'cmsms.localhost' to /etc/hosts and add cmsms.conf to /etc/apache2/sites-available
+
+
 
