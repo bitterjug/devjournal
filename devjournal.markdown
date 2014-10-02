@@ -162,6 +162,8 @@ mapView.selectDown(false)
 
 CMS Made Simple
 
-cmsms in ~/.tmp/
+cmsms in `~/.tmp/`
+
+Mysql db: cmsms/cmsms
 
 
