@@ -245,3 +245,21 @@ So
 
     pip3 install django
 
+
+### 22:07
+
+
+Got BDD working with behave.
+
+Weirdly `environment.py` has to be in the `features` directory instead of the steps.
+
+And syntax highlighting or cucumber `.feature` files highlights 'Scenaro:' as if it were 'Scenario:'
+which was frustrating.
+
+So as of today, there is a test which fails on an assertion error if you start
+a `manage.py runserver` manually because I haven't actualy written any django
+yet.  So its looking for 'To-Do' in the browser title but it gets 'Welcome to
+Django', or whatever.
+
+Before doing that, however, I think it might be fun to try and get the django server running
+automatically from the environment `before_all()'
