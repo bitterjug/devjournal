@@ -308,3 +308,9 @@ But it sill starts 2.7.6
     In [1]:
 
 
+
+### 12:27
+
+Duh! Fixed by running:
+
+    tdd~/workspace/tdd➔ ve/bin/ipython3
