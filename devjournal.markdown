@@ -182,99 +182,6 @@ Note that `doc/htaccess.txt` should be installed as a `.htaccess` to enable brow
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ## 2014-11-10 Monday
 
 ### 12:21
@@ -306,7 +213,6 @@ But it sill starts 2.7.6
     object?   -> Details about 'object', use 'object??' for extra details.
 
     In [1]:
-
 
 
 ### 12:27
