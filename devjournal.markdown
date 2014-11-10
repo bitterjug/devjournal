@@ -314,3 +314,21 @@ But it sill starts 2.7.6
 Duh! Fixed by running:
 
     tdd~/workspace/tdd➔ ve/bin/ipython3
+
+### 12:29
+
+So now I'm running python3 I can get at _splinter_ which I installed earlier:
+
+    506  echo `which python3.4`
+    507  virtualenv -p `which python3.4` ve
+    508  source ve/bin/activate
+    509  python
+    510  pip install splinter
+      
+In ipython3:
+
+    In [1]: from splinter import Browser
+    In [2]: browser = Browser()
+    In [3]: browser.visit('http://google.com')
+
+Opens a browser window and shows the google page.
