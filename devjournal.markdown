@@ -274,3 +274,35 @@ Note that `doc/htaccess.txt` should be installed as a `.htaccess` to enable brow
 
 
 
+
+## 2014-11-10 Monday
+
+### 12:21
+
+Can't get ipython to install in a ve that I just made with 
+
+    virtualenv -p `which python3.4`
+
+Even if I do:
+
+    pip3.4 install ipython
+
+When I run ipython after installing it I get 2.7.6.
+
+    tdd~/workspace/tdd➔ which ipython
+    /home/mark/workspace/tdd/ve/bin/ipython
+
+But it sill starts 2.7.6
+
+    ➔ ipython
+    WARNING: Attempting to work in a virtualenv. If you encounter problems, please install IPython inside the virtualenv.
+    Python 2.7.6 (default, Mar 22 2014, 22:59:56)
+    Type "copyright", "credits" or "license" for more information.
+
+    IPython 1.2.1 -- An enhanced Interactive Python.
+    ?         -> Introduction and overview of IPython's features.
+    %quickref -> Quick reference.
+    help      -> Python's own help system.
+    object?   -> Details about 'object', use 'object??' for extra details.
+
+    In [1]:
