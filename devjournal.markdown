@@ -238,3 +238,10 @@ In ipython3:
     In [3]: browser.visit('http://google.com')
 
 Opens a browser window and shows the google page.
+
+### 12:46
+
+So
+
+    pip3 install django
+
