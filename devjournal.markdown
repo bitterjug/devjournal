@@ -303,3 +303,7 @@ Which looks like pre python 3 syntax. So is _django_behave_ python 3 compatible?
 ### 21:55
 
 https://github.com/django-behave/django-behave says its tested with Python3.4, so what's going on?
+
+### 22:01
+
+Perhaps a different version from pypi?
