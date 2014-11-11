@@ -308,3 +308,10 @@ https://github.com/django-behave/django-behave says its tested with Python3.4, s
 
 Perhaps a different version from pypi?
 Installed: django_behave-0.1.2-py3.4.egg-info
+
+So pip uninstalled and tried again with pip3.4 which gave the same error on install.
+So I'm fetching the version from the git repo:
+
+    pip3.4 install git+https://github.com/django-behave/django-behave.git
+
+
