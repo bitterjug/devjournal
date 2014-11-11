@@ -262,4 +262,10 @@ yet.  So its looking for 'To-Do' in the browser title but it gets 'Welcome to
 Django', or whatever.
 
 Before doing that, however, I think it might be fun to try and get the django server running
-automatically from the environment `before_all()'
+automatically from the environment `before_all()`
+
+## 2014-11-11 Tuesday
+
+### 21:32
+
+Or maybe that's not the way to do it.
