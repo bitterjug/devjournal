@@ -271,3 +271,31 @@ automatically from the environment `before_all()`
 Or maybe that's not the way to do it. We have `django_behave` which is supposed
 to handle this.  It wants us to add itself to installd apps. And create
 `features` directories in the apps.  So lets give that a try.
+
+### 21:42
+
+After the fiile wrangling we get na interesting exception:
+
+
+    tdd~/workspace/tdd/superlists➔ ./manage.py test superlists
+    Traceback (most recent call last):
+      File "./manage.py", line 10, in <module>
+        execute_from_command_line(sys.argv)
+      File "/home/mark/workspace/tdd/ve/lib/python3.4/site-packages/django/core/management/__init__.py", line 385, in execute_from_command_line
+        utility.execute()
+      File "/home/mark/workspace/tdd/ve/lib/python3.4/site-packages/django/core/management/__init__.py", line 377, in execute
+        self.fetch_command(subcommand).run_from_argv(self.argv)
+      File "/home/mark/workspace/tdd/ve/lib/python3.4/site-packages/django/core/management/commands/test.py", line 50, in run_from_argv
+        super(Command, self).run_from_argv(argv)
+      File "/home/mark/workspace/tdd/ve/lib/python3.4/site-packages/django/core/management/base.py", line 284, in run_from_argv
+        parser = self.create_parser(argv[0], argv[1])
+      File "/home/mark/workspace/tdd/ve/lib/python3.4/site-packages/django/core/management/commands/test.py", line 53, in create_parser
+        test_runner_class = get_runner(settings, self.test_runner)
+      File "/home/mark/workspace/tdd/ve/lib/python3.4/site-packages/django/test/utils.py", line 144, in get_runner
+        test_module = __import__(test_module_name, {}, {}, force_str(test_path[-1]))
+      File "/home/mark/workspace/tdd/ve/lib/python3.4/site-packages/django_behave/runner.py", line 152
+        except ParserError, e:
+                          ^
+    SyntaxError: invalid syntax
+
+Which looks like pre python 3 syntax. So is _django_behave_ python 3 compatible?
