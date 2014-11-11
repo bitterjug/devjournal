@@ -307,3 +307,7 @@ https://github.com/django-behave/django-behave says its tested with Python3.4, s
 ### 22:01
 
 Perhaps a different version from pypi?
+
+### 22:03
+
+Installed: django_behave-0.1.2-py3.4.egg-info
