@@ -317,5 +317,9 @@ So I'm fetching the version from the git repo:
 Seems to have worked after second attempt.
 
 Once I added 'superlists' to INSTALLED_APPS it complained that my app didn't have a models module
-so created empty `models.py`
+so created empty `models.py` and the test runs.
+
+Interestingly, I don't get a server to play with out of the box. 
+
+
 
