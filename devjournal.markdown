@@ -268,4 +268,6 @@ automatically from the environment `before_all()`
 
 ### 21:32
 
-Or maybe that's not the way to do it.
+Or maybe that's not the way to do it. We have `django_behave` which is supposed
+to handle this.  It wants us to add itself to installd apps. And create
+`features` directories in the apps.  So lets give that a try.
