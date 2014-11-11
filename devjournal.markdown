@@ -321,5 +321,9 @@ so created empty `models.py` and the test runs.
 
 Interestingly, I don't get a server to play with out of the box. 
 
+Do I want a server? The Django test runner creates some kind of fake server.
+Maybe I still want some code in `environment.py` to start a test server.
+You can learn how to do this here: https://pythonhosted.org/behave/django.html?highlight=django
+
 
 
