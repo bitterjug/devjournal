@@ -314,4 +314,8 @@ So I'm fetching the version from the git repo:
 
     pip3.4 install git+https://github.com/django-behave/django-behave.git
 
+Seems to have worked after second attempt.
+
+Once I added 'superlists' to INSTALLED_APPS it complained that my app didn't have a models module
+so created empty `models.py`
 
