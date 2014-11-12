@@ -326,4 +326,13 @@ Maybe I still want some code in `environment.py` to start a test server.
 You can learn how to do this here: https://pythonhosted.org/behave/django.html?highlight=django
 
 
+## 2014-11-12 Wednesday
+
+### 21:45
+
+Followed along with [this chapter](http://chimera.labs.oreilly.com/books/1234000000754/ch03.html#_the_unit_test_code_cycle)
+creating unit tests but using my BDD as the functional test.
+
+Im concerned that we still haven't added the `lists` module as an `INSTALLED_APPS` entry.
+
 
