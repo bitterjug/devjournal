@@ -359,3 +359,7 @@ As explained in the [splinter documentation](http://splinter.cobrateam.info/en/l
     browser.find_by_value('query')
 
 
+
+### 21:46
+
+Oh! I got ahead of myself, Shoudl have done the refactor to use template first!
