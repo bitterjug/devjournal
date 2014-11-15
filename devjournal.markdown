@@ -336,3 +336,13 @@ creating unit tests but using my BDD as the functional test.
 Im concerned that we still haven't added the `lists` module as an `INSTALLED_APPS` entry.
 
 
+
+## 2014-11-15 Saturday
+
+### 21:39
+
+Copying the functional tests from chapter 4, we find the browser object from splinter has different methods.
+Notably:
+
+
+      AttributeError: 'WebDriver' object has no attribute 'find_element_by_tag_name'
