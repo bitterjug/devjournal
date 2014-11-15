@@ -346,3 +346,16 @@ Notably:
 
 
       AttributeError: 'WebDriver' object has no attribute 'find_element_by_tag_name'
+
+### 21:44
+
+As explained in the [splinter documentation](http://splinter.cobrateam.info/en/latest/finding.html), the available options are:
+
+    browser.find_by_css('h1')
+    browser.find_by_xpath('//h1')
+    browser.find_by_tag('h1')
+    browser.find_by_name('name')
+    browser.find_by_id('firstheader')
+    browser.find_by_value('query')
+
+
