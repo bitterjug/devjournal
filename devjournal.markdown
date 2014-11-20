@@ -371,3 +371,10 @@ Oh! I got ahead of myself, Shoudl have done the refactor to use template first!
 Updating a lost wordpress password.
 
     update wp_users set user_pass = MD5('new-pw') where id = 1;
+
+### 22:45
+
+Here's how to  zip up a wordpress theme.
+From inside the theme's git repo directory:
+
+    git archive --format=zip --output ../Xenonium.zip HEAD --prefix=Xenonium/
