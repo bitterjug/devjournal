@@ -363,3 +363,11 @@ As explained in the [splinter documentation](http://splinter.cobrateam.info/en/l
 ### 21:46
 
 Oh! I got ahead of myself, Shoudl have done the refactor to use template first!
+
+## 2014-11-20 Thursday
+
+### 20:09
+
+Updating a lost wordpress password.
+
+    update wp_users set user_pass = MD5('new-pw') where id = 1;
