@@ -362,7 +362,7 @@ As explained in the [splinter documentation](http://splinter.cobrateam.info/en/l
 
 ### 21:46
 
-Oh! I got ahead of myself, Shoudl have done the refactor to use template first!
+Oh! I got ahead of myself, Should have done the refactor to use template first!
 
 ## 2014-11-20 Thursday
 
