@@ -405,4 +405,5 @@ default yet; which I might change. I wonder how do that.  Proably in
 
     colorscheme zerburn 
 
-Did the trick.
+Did the trick. But it assumes zerburn theme is available. Might need to check
+my version of that into version control.
