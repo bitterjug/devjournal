@@ -402,3 +402,7 @@ dark DuckDuckGo theme.
 Vimperator looks much better with zenburn theme selected.This isn't set as
 default yet; which I might change. I wonder how do that.  Proably in
 `.vimperatorrc`.
+
+    colorscheme zerburn 
+
+Did the trick.
