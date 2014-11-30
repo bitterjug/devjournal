@@ -378,3 +378,23 @@ Here's how to  zip up a wordpress theme.
 From inside the theme's git repo directory:
 
     git archive --format=zip --output ../Xenonium.zip HEAD --prefix=Xenonium/
+
+## 2014-11-30 Sunday
+
+### 18:54
+
+Notes on DArk Themes
+Installed Ambiance Dark via nooblabs ppa
+
+      sudo add-apt-repository ppa:noobslab/themes
+      sudo apt-get update
+      sudo apt-get install ambiance-dark-red
+ 
+ This looks pretty good.  We still have a problem with the software centre,
+ there are css fixes for this but for the moment I'm trying out appgrid which
+ doens't seem to have the problems.
+
+ Firefox tabs were a bit odd until I restarted.
+
+ Duck Duck Go had light text  on a white background but this is solved with a
+ dark DuckDuckGo theme.
