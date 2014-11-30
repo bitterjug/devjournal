@@ -390,11 +390,15 @@ Installed Ambiance Dark via nooblabs ppa
       sudo apt-get update
       sudo apt-get install ambiance-dark-red
  
- This looks pretty good.  We still have a problem with the software centre,
- there are css fixes for this but for the moment I'm trying out appgrid which
- doens't seem to have the problems.
+This looks pretty good.  We still have a problem with the software centre,
+there are css fixes for this but for the moment I'm trying out appgrid which
+doens't seem to have the problems.
 
- Firefox tabs were a bit odd until I restarted.
+Firefox tabs were a bit odd until I restarted.
 
- Duck Duck Go had light text  on a white background but this is solved with a
- dark DuckDuckGo theme.
+Duck Duck Go had light text  on a white background but this is solved with a
+dark DuckDuckGo theme.
+
+Vimperator looks much better with zenburn theme selected.This isn't set as
+default yet; which I might change. I wonder how do that.  Proably in
+`.vimperatorrc`.
