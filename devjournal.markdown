@@ -407,3 +407,13 @@ default yet; which I might change. I wonder how do that.  Proably in
 
 Did the trick. But it assumes zerburn theme is available. Might need to check
 my version of that into version control.
+
+## 2014-12-29 Monday
+
+### 17:51
+
+How to do mDNS lookups with DIG:
+
+    dig @224.0.0.251 -p 5353  musicbox.localhost
+
+Awesome!
