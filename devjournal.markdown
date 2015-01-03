@@ -417,3 +417,12 @@ How to do mDNS lookups with DIG:
     dig @224.0.0.251 -p 5353  musicbox.localhost
 
 Awesome!
+
+## 2015-01-03 Saturday
+
+### 09:29
+
+Ideas about virtualising and isolating my laptop from dev environment on new pc.
+* [VAGRANT](http://docs.vagrantup.com/v2/provisioning/docker.html)
+* [Docker](https://www.docker.com/)
+* [Fig](http://www.fig.sh/django.html)
