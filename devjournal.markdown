@@ -426,3 +426,9 @@ Ideas about virtualising and isolating my laptop from dev environment on new pc.
 * [VAGRANT](http://docs.vagrantup.com/v2/provisioning/docker.html)
 * [Docker](https://www.docker.com/)
 * [Fig](http://www.fig.sh/django.html)
+
+## 2015-01-18 Sunday
+
+### 16:36
+
+Make 'gst' alias more robust when not in a git repository.
