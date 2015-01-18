@@ -431,4 +431,11 @@ Ideas about virtualising and isolating my laptop from dev environment on new pc.
 
 ### 16:36
 
-Make 'gst' alias more robust when not in a git repository.
+- [ ] Make 'gst' Git status (using vim) alias more robust when not in a git repository.
+
+### 17:43
+
+Fix for Bootstrap Navbar borders: add `navbar-fixed-top` to the top one to keep
+it not scrolling, and `navbar-satic-bottom` to the bottom one to fix it to the
+bottom of the page.
+
