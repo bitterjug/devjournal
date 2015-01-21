@@ -438,3 +438,9 @@ Ideas about virtualising and isolating my laptop from dev environment on new pc.
 Fix for Bootstrap Navbar borders: add `navbar-fixed-top` to the top one to keep
 it not scrolling, and `navbar-satic-bottom` to the bottom one to fix it to the
 bottom of the page. See [The docs](http://getbootstrap.com/components/) for details.
+
+## 2015-01-21 Wednesday
+
+### 21:33
+
+__Meslo LG L DZ__ Is a great looking font for programming with even more vertial space than Source Code Pro
