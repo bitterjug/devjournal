@@ -477,4 +477,11 @@ Now, how to make it start when `mark` logs in?
 
 I already have a `.mpd/` directory with some settings in.
 
+### 21:36
+
+Create a new config file as ~/.mpd/mpd.conf by extrating the example one:
+
+    gunzip -c /usr/share/doc/mpd/examples/mpdconf.example.gz  > mpd.conf
+
+And uncoment pulse audio (And other settings).
 
