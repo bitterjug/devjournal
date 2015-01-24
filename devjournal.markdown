@@ -472,6 +472,3 @@ And here is a [list of alternatives](http://askubuntu.com/questions/19320/how-to
 for starting and stopping services.
 
 Now, how to make it start when `mark` logs in?
-
-### 21:18
-
