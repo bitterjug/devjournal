@@ -468,4 +468,10 @@ So I want to make it run as user level service.
 
     sudo update-rc.d mpd disable
 
+And here is a [list of alternatives](http://askubuntu.com/questions/19320/how-to-enable-or-disable-services/20347#20347) 
+for starting and stopping services.
+
 Now, how to make it start when `mark` logs in?
+
+### 21:18
+
