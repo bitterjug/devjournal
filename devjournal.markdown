@@ -495,4 +495,14 @@ files stored in:
 
 Now, does that work on mythbuntu?
 
+### 22:52
+
+Fucking about with the config I keept geting:
+
+    server reports failed to open audio output
+
+Guess what! Mythbuntu doesn't install pulse.
+
+Hmm. So do I want mpd to play through pulse on Revo?..
+
 
