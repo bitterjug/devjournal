@@ -444,3 +444,10 @@ bottom of the page. See [The docs](http://getbootstrap.com/components/) for deta
 ### 21:33
 
 __Meslo LG L DZ__ Is a great looking font for programming with even more vertial space than Source Code Pro
+
+## 2015-01-24 Saturday
+
+### 08:25
+
+Unite for vim
+http://eblundell.com/thoughts/2013/08/15/Vim-CtrlP-behaviour-with-Unite.html
