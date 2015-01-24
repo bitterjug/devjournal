@@ -473,6 +473,8 @@ for starting and stopping services. `jobs-admin` appears to be the winner.
 
 Now, how to make it start when `mark` logs in?
 
-### 21:20
+### 21:24
+
+I already have a `.mpd/` directory with some settings in.
 
 
