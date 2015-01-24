@@ -451,3 +451,21 @@ __Meslo LG L DZ__ Is a great looking font for programming with even more vertial
 
 Unite for vim
 http://eblundell.com/thoughts/2013/08/15/Vim-CtrlP-behaviour-with-Unite.html
+
+### 20:49
+
+# MPD config on Revo
+
+It won't work with pulseaudio out of the box because it runs as system service. 
+So I want to make it run as user level service.
+
+- how to disable the system service? I only know how to use BUM.  I'm going to
+  run Bum (remotely via ssh -Y)
+
+  Find mpd in the list and uncheck the box. Press apply and choose yes to apply changes.
+
+  And for good measure, as per [instructions](https://help.ubuntu.com/community/MPD#Configuring_MPD_to_run_as_a_user_service)
+
+    sudo update-rc.d mpd disable
+
+Now, how to make it start when `mark` logs in?
