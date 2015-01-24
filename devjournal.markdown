@@ -485,3 +485,10 @@ Create a new config file as ~/.mpd/mpd.conf by extrating the example one:
 
 And uncoment pulse audio (And other settings).
 
+
+### 21:49
+
+Turns out the services that start for me as a user, in ubuntu, are desktop
+files stored in:
+
+    ~/.config/autostart/xcape.desktop
