@@ -492,3 +492,7 @@ Turns out the services that start for me as a user, in ubuntu, are desktop
 files stored in:
 
     ~/.config/autostart/xcape.desktop
+
+Now, does that work on mythbuntu?
+
+
