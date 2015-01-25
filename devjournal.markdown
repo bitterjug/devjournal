@@ -519,3 +519,8 @@ michelle  at key travel 1640 e
 Tried to install [beets](http://beets.readthedocs.org/en/v1.3.10/guides/main.html)
 the apt-get repo has 1.3.1 but 1.3.10 is current. Pip install beets gave
 errors. So something is broken, try again.
+
+### 21:59
+
+Turns out the version of `six` was too old. Installed now. Could try and organize 
+the revo music with it.
