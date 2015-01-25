@@ -513,3 +513,9 @@ Hmm. So do I want mpd to play through pulse on Revo?..
 
 michelle  at key travel 1640 e
 
+
+### 20:53
+
+Tried to install [beets](http://beets.readthedocs.org/en/v1.3.10/guides/main.html)
+the apt-get repo has 1.3.1 but 1.3.10 is current. Pip install beets gave
+errors. So something is broken, try again.
