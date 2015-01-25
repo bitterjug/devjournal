@@ -506,3 +506,9 @@ Guess what! Mythbuntu doesn't install pulse.
 Hmm. So do I want mpd to play through pulse on Revo?..
 
 
+
+## 2015-01-25 Sunday
+
+### 10:43
+
+michelle  at key travel
