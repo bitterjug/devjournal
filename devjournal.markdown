@@ -524,3 +524,10 @@ errors. So something is broken, try again.
 
 Turns out the version of `six` was too old. Installed now. Could try and organize 
 the revo music with it.
+
+## 2015-01-29 Thursday
+
+### 23:32
+
+Having switched to lightline from powerline, I'm kinda wondering how to 
+get the right components of the vimfiler window to collapse.
