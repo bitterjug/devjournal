@@ -531,3 +531,13 @@ the revo music with it.
 
 Having switched to lightline from powerline, I'm kinda wondering how to 
 get the right components of the vimfiler window to collapse.
+
+## 2015-01-30 Friday
+
+### 09:09
+
+Having just added Tmuxline.vim to vim (!!!) I'm wondering about using
+`NeoBundleLazy` to load all the markdown and other weird types. Maybe
+only load pymode for python files, imagine!
+
+
