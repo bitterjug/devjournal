@@ -541,3 +541,11 @@ Having just added Tmuxline.vim to vim (!!!) I'm wondering about using
 only load pymode for python files, imagine!
 
 
+
+### 09:10
+
+And for collapsing the _vimfiler_ status bar coponents, I think thebest
+solution was custom `percent` and `lineinfo` parts that are empty 
+for _vimfiler_, and then setting them to their defalt valus otherwise,
+but then we need to register those new keys as reqiring expansion
+to insert the details.
