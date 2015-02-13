@@ -549,3 +549,16 @@ solution was custom `percent` and `lineinfo` parts that are empty
 for _vimfiler_, and then setting them to their defalt valus otherwise,
 but then we need to register those new keys as reqiring expansion
 to insert the details.
+
+## 2015-02-13 Friday
+
+### 22:26
+
+Set up tmuxline settings for tmux permanently with a command from vim:
+
+:TmuxlineSnapshot[!] [file]                              *:TmuxlineSnapshot*
+  Create a file holding tmux statusline configuration. The file can be sourced
+  by your tmux, typically in your tmux.conf. The command must be executed
+  after |tmuxline| has set tmux's statusline, i.e. after executing
+  |:Tmuxline|. The file will not be overwritten unless bang [!] is given.
+
