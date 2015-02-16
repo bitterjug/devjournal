@@ -562,3 +562,13 @@ Set up tmuxline settings for tmux permanently with a command from vim:
   after |tmuxline| has set tmux's statusline, i.e. after executing
   |:Tmuxline|. The file will not be overwritten unless bang [!] is given.
 
+
+## 2015-02-16 Monday
+
+### 21:21
+
+
+Note
+    "NeoBundle 'Rykka/riv.vim' "Restructured text
+
+They reverted the terrible clickable thing, go check it out again.
