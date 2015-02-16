@@ -572,3 +572,9 @@ Note
     "NeoBundle 'Rykka/riv.vim' "Restructured text
 
 They reverted the terrible clickable thing, go check it out again.
+
+### 21:51
+
+Here's something else to try out: Vim in the browser
+
+    https://github.com/ardagnir/pterosaur#vim-info
