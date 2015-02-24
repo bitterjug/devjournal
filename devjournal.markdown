@@ -612,5 +612,13 @@ they complain becuse there is no server running for them to connect to.
 
 ### 10:50
 
-I want to use [LiveServerTestCase](https://docs.djangoproject.com/en/1.7/topics/testing/tools/#django.test.LiveServerTestCase)
-to fix this:
+I want to use
+[LiveServerTestCase](https://docs.djangoproject.com/en/1.7/topics/testing/tools/#django.test.LiveServerTestCase)
+to fix this. Ther's a kind of race condition here because in order to get a
+live server you have to have done some django setup first. I can see how I the
+book this isn't apropriate but for me I thnk its okay if we steal  a working
+django system and get tests to run. I'll steal from my old project.
+
+
+
+
