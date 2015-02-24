@@ -606,10 +606,11 @@ I did
 
 Which runs the functional tests.
 
-They fail.
+They fail. They were'nt set up properly. Having shuffled the directories about
+a bit we find they run when behave can find all the steps and stuff. And then
+they complain becuse there is no server running for them to connect to.
 
+### 10:50
 
-
-### 10:12
-
-
+I want to use [LiveServerTestCase](https://docs.djangoproject.com/en/1.7/topics/testing/tools/#django.test.LiveServerTestCase)
+to fix this:
