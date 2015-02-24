@@ -631,8 +631,9 @@ has its own test runner.
 In a package called `django-behave` which apparently we have installed in the
 app.
 
+### 11:14
 
-
-### 11:10
+There is a file [here](https://github.com/django-behave/django-behave/blob/master/django_behave/splinter.steps_library.py)
+with steps for setting up splinter! Let's have a look at those.
 
 
