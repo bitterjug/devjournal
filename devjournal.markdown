@@ -625,7 +625,14 @@ Could try and do it the hard way folowing this [example from behve docs](http://
 
 ### 11:06
 
-Or maybe not. LiveServerTestCase might not be the best solution.
-And behave has its own test runner.
+Or maybe not. LiveServerTestCase might not be the best solution.  And behave
+has its own test runner.
+
+In a package called `django-behave` which apparently we have installed in the
+app.
+
+
+
+### 11:10
 
 
