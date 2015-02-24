@@ -588,3 +588,22 @@ Here's something else to try out: Vim in the browser
 
 Going back to this project after some time, how the hell do you run the tests?
 Maybe I should have written some documentation?
+
+### 10:10
+
+There's a readme now. What to put in it?
+
+There is a django app in here somewhere.
+
+In 
+    /tdd/superlists
+
+I did
+
+    ./manage.py test superlists
+
+Which runs the functional tests.
+
+They fail.
+
+
