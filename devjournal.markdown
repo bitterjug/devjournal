@@ -595,6 +595,8 @@ There's a readme now. What to put in it?
 
 There is a django app in here somewhere.
 
+First I activat the virtual env in /tdd/ve
+
 In 
     /tdd/superlists
 
@@ -605,5 +607,9 @@ I did
 Which runs the functional tests.
 
 They fail.
+
+
+
+### 10:12
 
 
