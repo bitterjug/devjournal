@@ -578,3 +578,13 @@ They reverted the terrible clickable thing, go check it out again.
 Here's something else to try out: Vim in the browser
 
     https://github.com/ardagnir/pterosaur#vim-info
+
+## 2015-02-24 Tuesday
+
+### 10:02
+
+
+# TDD
+
+Going back to this project after some time, how the hell do you run the tests?
+Maybe I should have written some documentation?
