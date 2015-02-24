@@ -634,6 +634,22 @@ app.
 ### 11:14
 
 There is a file [here](https://github.com/django-behave/django-behave/blob/master/django_behave/splinter.steps_library.py)
-with steps for setting up splinter! Let's have a look at those.
+with steps for setting up Splinter! Let's have a look at those.
 
+They're not as interesting as we hoped.
 
+### 12:39
+
+Set up the `django-behave` test runner.
+
+This internally uses `LiveServerTestCase` !
+
+And it sets the `server_url` in the Behave Configuration object.  Which our tests
+can access from the steps becausethe `configuration` object is set on the
+`context` object. So in my `environment.py`  in `before_all`, I'm setting
+
+    context.home_url = context.config.server_url
+
+Now the browser starts, it finds the test server set up for the test case and
+we get a url not found error. Which is probably correct because I haven't copid over the
+url config from the old project  yet.
