@@ -655,3 +655,12 @@ we get a url not found error. Which is probably correct because I haven't copid 
 url config from the old project  yet.
 
 - [ ]  copy over old url config
+
+### 12:45
+
+- [ ] Should these journals be linked to or contained within the current project instead of global?
+  - better for  keepingthe thread of deelopment together
+  - worse for having all your wisdom collected togther in the same place
+
+  - Maybe some kind of compromise using, e.g. RIV that can remember the last project specific file 
+  we were working on and open that by default when we hit the note taking command key.
