@@ -664,3 +664,9 @@ url config from the old project  yet.
 
   - Maybe some kind of compromise using, e.g. RIV that can remember the last project specific file 
   we were working on and open that by default when we hit the note taking command key.
+
+## 2015-02-28 Saturday
+
+### 22:17
+
+Try out Vim [ControlSpace](https://github.com/szw/vim-ctrlspace#the-idea)
