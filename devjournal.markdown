@@ -670,3 +670,8 @@ url config from the old project  yet.
 ### 22:17
 
 Try out Vim [ControlSpace](https://github.com/szw/vim-ctrlspace#the-idea)
+
+### 22:39
+
+Checkout using `augroup` in vim
+see https://github.com/szw/dotfiles/blob/master/vimrc
