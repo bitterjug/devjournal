@@ -683,3 +683,14 @@ see https://github.com/szw/dotfiles/blob/master/vimrc
 Here's a plugin to make vim jump to the step for a line in celery like behave file
 
     https://gitorious.org/cucutags/vim-behave/
+
+### 21:31
+
+
+One thing about using the double loop TDD approach is that it is kinda okay to
+insert some bloody silly code that makes a unit test pass, because the
+functional test should still be failing. Actually, I'm not sure what the reason
+for wanting to insert a trivial pass code is, because you're going to have to
+take it out anyway. Perhaps to understand exactly how the test works and what
+it tests for (and what it doses not).
+
