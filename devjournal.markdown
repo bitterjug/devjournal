@@ -678,6 +678,8 @@ see https://github.com/szw/dotfiles/blob/master/vimrc
 
 ## 2015-03-01 Sunday
 
-### 18:39
+### 20:58
 
+Here's a plugin to make vim jump to the step for a line in celery like behave file
 
+    https://gitorious.org/cucutags/vim-behave/
