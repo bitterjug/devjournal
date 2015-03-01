@@ -654,7 +654,7 @@ Now the browser starts, it finds the test server set up for the test case and
 we get a url not found error. Which is probably correct because I haven't copid over the
 url config from the old project  yet.
 
-- [ ]  copy over old url config
+- [x]  copy over old url config
 
 ### 12:45
 
@@ -675,3 +675,9 @@ Try out Vim [ControlSpace](https://github.com/szw/vim-ctrlspace#the-idea)
 
 Checkout using `augroup` in vim
 see https://github.com/szw/dotfiles/blob/master/vimrc
+
+## 2015-03-01 Sunday
+
+### 18:39
+
+
