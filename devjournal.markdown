@@ -694,3 +694,10 @@ for wanting to insert a trivial pass code is, because you're going to have to
 take it out anyway. Perhaps to understand exactly how the test works and what
 it tests for (and what it doses not).
 
+
+### 22:52
+
+Bastart Splinter doesn't appear to handle keystrokes the same way as selnium.
+So I have no idea how you type really complex stuff, but to type "Enter"
+atthe end of in put where I Wanted that action to submit the form, I finally
+tried ading "\n" to the input string, and it worked.
