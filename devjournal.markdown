@@ -709,3 +709,10 @@ tried ading "\n" to the input string, and it worked.
 The other reason for wanting to make quick changes to make the tests pass
 is the Red-Green-Refactor thing. You can make it pass then refactor to a
 more reliable soltion you're going green to green.
+
+### 21:39
+
+[Here][1]'s an interesting tip for getting your virtual env active inside vim (as
+opposed to activating it before you start vim.)
+
+[1]:http://www.sontek.net/blog/2011/05/07/turning_vim_into_a_modern_python_ide.html#virtualenv
