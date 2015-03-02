@@ -716,3 +716,26 @@ more reliable soltion you're going green to green.
 opposed to activating it before you start vim.)
 
 [1]:http://www.sontek.net/blog/2011/05/07/turning_vim_into_a_modern_python_ide.html#virtualenv
+
+### 22:13
+
+
+" VimFiler
+    noremap <Leader>f :VimFilerExplorer -toggle<cr>
+    "Open  if no file argumentsNERDTree
+    autocmd VimEnter * if !argc() | VimFiler | endif
+    " use inplace of netrw
+	let g:vimfiler_as_default_explorer = 1
+    " Ignore dotfiles and .pyc files.
+    let g:vimfiler_ignore_pattern = '^\%(\..*\|.*\.pyc\)$'
+	" Like Textmate icons.
+	let g:vimfiler_tree_leaf_icon = '╰─'
+	let g:vimfiler_tree_opened_icon = '─▾'
+	let g:vimfiler_tree_closed_icon = '─▷'
+	let g:vimfiler_file_icon = '─╴'
+
+    let g:vimfiler_readonly_file_icon ='─╸'
+	let g:vimfiler_marked_file_icon = ' ✔'
+    let g:vimfiler_tree_indentation = 3
+	" let g:vimfiler_tree_closed_icon = '▸'
+	"let g:vimfiler_file_icon = '╼'
