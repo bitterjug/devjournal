@@ -739,3 +739,7 @@ opposed to activating it before you start vim.)
     let g:vimfiler_tree_indentation = 3
 	" let g:vimfiler_tree_closed_icon = '▸'
 	"let g:vimfiler_file_icon = '╼'
+
+### 22:15
+
+
