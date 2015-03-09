@@ -743,3 +743,9 @@ opposed to activating it before you start vim.)
 ### 22:15
 
 
+
+## 2015-03-09 Monday
+
+### 23:16
+
+- [ ] Make neocomplete use Jedi completion as, e.g. omnicomplete function
