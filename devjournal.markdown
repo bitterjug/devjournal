@@ -749,3 +749,9 @@ opposed to activating it before you start vim.)
 ### 23:16
 
 - [ ] Make neocomplete use Jedi completion as, e.g. omnicomplete function
+
+## 2015-03-10 Tuesday
+
+### 00:04
+
+Would it be possible to use `LiveServerTestCase` to roll back the transactions between scenarios?
