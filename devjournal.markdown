@@ -755,3 +755,11 @@ opposed to activating it before you start vim.)
 ### 00:04
 
 Would it be possible to use `LiveServerTestCase` to roll back the transactions between scenarios?
+
+## 2015-03-13 Friday
+
+### 10:39
+
+Page 83 of the TDD in Python book; REST would have us use a PUT request to create a new list.
+[Turns out](http://stackoverflow.com/questions/1856996/doing-a-http-put-from-a-browser) 
+you can't easily send POST requests from HTML forms, but you can with Javascript/AJAX.
