@@ -791,3 +791,8 @@ And `after_feature()` tries to close any open `context.browser` .
 # Vim
 
 - [ ] Hide ve files and ropeproject from Unite Ctrl-P file list
+
+### 12:10
+
+- [ ] My laptop seemsto have forgotten to open my ssh key when I log in.
+How do I add that to the keyring again?
