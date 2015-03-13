@@ -767,3 +767,8 @@ you can't easily send POST requests from HTML forms, but you can with Javascript
 ### 11:12
 
 - [ ] How about a tmux binding for ^a-k that takes us into edit mode and does a k=up action?:
+
+### 11:16
+
+- [ ] Fork django-behave and add the current test case object to context so I
+  can access it in the steps to use assertXxxxx methods
