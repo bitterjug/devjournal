@@ -779,6 +779,6 @@ you can't easily send POST requests from HTML forms, but you can with Javascript
 
 # TDD in Python
 
-Page 85: Use new browser session for new user.
-How to do thisin Behave? Should we quite the browser between scenarios?
-And make thisa new scenario. It doesn't feel like a new feature to me.
+Page 85: Use new browser session for new user.  How to do thisin Behave? Should
+we quite the browser between scenarios?  And make thisa new scenario. It
+doesn't feel like a new feature to me.
