@@ -783,6 +783,11 @@ Page 85: Use new browser session for new user.  How to do thisin Behave? Should
 we quite the browser between scenarios?  And make thisa new scenario. It
 doesn't feel like a new feature to me.
 
+The previously unused "Given a User" step now opens a new browser instance.
+And `after_feature()` tries to close any open `context.browser` .
+
 ### 11:45
+
+# Vim
 
 - [ ] Hide ve files and ropeproject from Unite Ctrl-P file list
