@@ -763,3 +763,7 @@ Would it be possible to use `LiveServerTestCase` to roll back the transactions b
 Page 83 of the TDD in Python book; REST would have us use a PUT request to create a new list.
 [Turns out](http://stackoverflow.com/questions/1856996/doing-a-http-put-from-a-browser) 
 you can't easily send POST requests from HTML forms, but you can with Javascript/AJAX.
+
+### 11:12
+
+- [ ] How about a tmux binding for ^a-k that takes us into edit mode and does a k=up action?:
