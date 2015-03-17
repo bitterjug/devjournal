@@ -812,4 +812,10 @@ Is `vim-css-color`  plugin broken?
 
 No. Just me expecting new stuff to work without restarting vim :(
 
+### 21:00
+
+Note: We can probably make the percent and line info collapse
+for vimfiler windows by using `component_expand` instead/as well as
+`component_function` in lightline config
+
 
