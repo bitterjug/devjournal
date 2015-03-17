@@ -796,3 +796,16 @@ And `after_feature()` tries to close any open `context.browser` .
 
 - [ ] My laptop seemsto have forgotten to open my ssh key when I log in.
 How do I add that to the keyring again?
+
+## 2015-03-17 Tuesday
+
+### 19:58
+
+# Vim
+
+Is `vim-css-color`  plugin broken?
+
+    /home/mark/.vim/bundle/vim-css-color/after/syntax/vim.vim, line 6
+    Vim(call):E118: Too many arguments for function: css_color#init
+    Error occurred while executing "open" action!
+    Press ENTER or type command to continue
