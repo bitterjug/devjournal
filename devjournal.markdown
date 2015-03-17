@@ -809,3 +809,7 @@ Is `vim-css-color`  plugin broken?
     Vim(call):E118: Too many arguments for function: css_color#init
     Error occurred while executing "open" action!
     Press ENTER or type command to continue
+
+No. Just me expecting new stuff to work without restarting vim :(
+
+
