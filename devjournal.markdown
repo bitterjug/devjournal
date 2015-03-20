@@ -824,10 +824,13 @@ for vimfiler windows by using `component_expand` instead/as well as
 
 # Exaile
 
+Could make it an option whether to apply the moodbar to the main or secondary
+output device?
+
 To make moodbar work on the secondary playback device, the moodbar needs to
 know about:
 
-- _The progress bar ui component to replace_ (stored as `setlf.pr`) in the
+- The progress bar ui component to replace (stored as `setlf.pr`) in the
   `ExModbar` object. For example: `ExModbar.changeBarToMod()` refers to
   `self.pr` for the progress bar. Which is set in `setupUi()` in reference to
   `self.exaile`, assuming there to be a single `progress_bar`:
@@ -837,14 +840,30 @@ know about:
   Perhaps `setupUi()`, or an explicit setter method, should take a parameter
   and set up the progress bar instance to attach to.
 
-- 
-  It refers explicityly to the primary player when adding callbacks for track
-  start and end:
+- The player object whose events to respond to.  It refers explicityly to the
+  primary player when, for example adding callbacks for track start and end:
 
+```python
     event.add_callback(ExaileModbar.play_start, 'playback_track_start', player.PLAYER)
     event.add_callback(ExaileModbar.play_end, 'playback_player_end', player.PLAYER)
+```
 
   In `_enable()`, and similarly when removing them in `disable()`
 
   Perhaps the `ExModbar()` object should have a method to do these two calls,
+  referring to the player object for the instance of the plugin.
+
+```python
+    ExaileModbar.setCallbacks()
+
+    ...
+
+    ExaileModbar...
+
+        def setCallbacks(self, 
+```
+
   which takes the player as an argument?
+
+  Inside the `ExModbar` object there are several references to `player.PLAYER`
+  that could be replaced with references to, e.g. `self.player`.
