@@ -843,7 +843,7 @@ know about:
 - The player object whose events to respond to.  It refers explicityly to the
   primary player when, for example adding callbacks for track start and end:
 
-```python
+``` python
     event.add_callback(ExaileModbar.play_start, 'playback_track_start', player.PLAYER)
     event.add_callback(ExaileModbar.play_end, 'playback_player_end', player.PLAYER)
 ```
@@ -853,7 +853,7 @@ know about:
   Perhaps the `ExModbar()` object should have a method to do these two calls,
   referring to the player object for the instance of the plugin.
 
-```python
+``` python
     ExaileModbar.setCallbacks()
 
     ...
