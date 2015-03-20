@@ -819,3 +819,32 @@ for vimfiler windows by using `component_expand` instead/as well as
 `component_function` in lightline config
 
 
+
+### 22:01
+
+# Exaile
+
+To make moodbar work on the secondary playback device, the moodbar needs to
+know about:
+
+- **The progress bar ui component to replace** (stored as `setlf.pr`) in the
+  `ExModbar` object. For example: `ExModbar.changeBarToMod()` refers to
+  `self.pr` for the progress bar. Which is set in `setupUi()` in reference to
+  `self.exaile`, assuming there to be a single `progress_bar`:
+
+    self.pr=self.exaile.gui.main.progress_bar
+
+  Perhaps `setupUi()`, or an explicit setter method, should take a parameter
+  and set up the progress bar instance to attach to.
+
+- 
+  It refers explicityly to the primary player when adding callbacks for track
+  start and end:
+
+    event.add_callback(ExaileModbar.play_start, 'playback_track_start', player.PLAYER)
+    event.add_callback(ExaileModbar.play_end, 'playback_player_end', player.PLAYER)
+
+  In `_enable()`, and similarly when removing them in `disable()`
+
+  Perhaps the `ExModbar()` object should have a method to do these two calls,
+  which takes the player as an argument?
