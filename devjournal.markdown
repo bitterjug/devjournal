@@ -827,7 +827,7 @@ for vimfiler windows by using `component_expand` instead/as well as
 To make moodbar work on the secondary playback device, the moodbar needs to
 know about:
 
-- *The progress bar ui component to replace* (stored as `setlf.pr`) in the
+- _The progress bar ui component to replace_ (stored as `setlf.pr`) in the
   `ExModbar` object. For example: `ExModbar.changeBarToMod()` refers to
   `self.pr` for the progress bar. Which is set in `setupUi()` in reference to
   `self.exaile`, assuming there to be a single `progress_bar`:
