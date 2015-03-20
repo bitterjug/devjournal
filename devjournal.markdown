@@ -861,9 +861,18 @@ know about:
     ExaileModbar...
 
         def setCallbacks(self, 
-```
+            event.add_callback(
+                ExaileModbar.play_start, 
+                'playback_track_start', 
+                player.PLAYER
+            )
+            event.add_callback(
+                ExaileModbar.play_end, 
+                'playback_player_end', 
+                player.PLAYER
+            )
 
-  which takes the player as an argument?
+```
 
   Inside the `ExModbar` object there are several references to `player.PLAYER`
   that could be replaced with references to, e.g. `self.player`.
