@@ -889,3 +889,4 @@ know about:
 
   Inside the `ExModbar` object there are several references to `player.PLAYER`
   that could be replaced with references to, e.g. `self.player`.
+
