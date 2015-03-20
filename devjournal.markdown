@@ -853,24 +853,37 @@ know about:
   Perhaps the `ExModbar()` object should have a method to do these two calls,
   referring to the player object for the instance of the plugin.
 
+  There is currently a `set_ex(exaile)` method which sets `self.exaile` which
+  is used _only_ to refer to the progress bar.
+
+  So I propose: 
+
+   - remove `set_ex and` replace with params to init
+
 ``` python
-    ExaileModbar.setCallbacks()
+
+
+    def enable(exaile):
+        global ExaileModbar
+        ExaileModbar=ExModbar(
+            progress_bar=exaile.gui.main.progress_bar,
+            player=player.PLAYER
+        )
+    ...
+
+    def _enable(eventname, exaile, nothing):
+        global ExModbar
+        ExaileModbar.readMod('')
+        ExaileModbar.setupUi()
+        ExaileModbar.setCallbacks()  # Or this could be done as part of setupUi??
 
     ...
 
     ExaileModbar...
 
-        def setCallbacks(self, 
-            event.add_callback(
-                ExaileModbar.play_start, 
-                'playback_track_start', 
-                player.PLAYER
-            )
-            event.add_callback(
-                ExaileModbar.play_end, 
-                'playback_player_end', 
-                player.PLAYER
-            )
+        def setCallbacks(self) 
+            event.add_callback(self.play_start, 'playback_track_start', self.player)
+            event.add_callback(self.play_end, 'playback_player_end', self.player)
 
 ```
 
