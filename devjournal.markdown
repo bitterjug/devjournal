@@ -900,3 +900,16 @@ know about:
 ### 21:16
 
 
+
+### 21:47
+
+Exaile blows up.  0.3.4 beta2, up to my current version. (i.e. it did it before I started hacking it)
+Start a track runing, go to Preferences Plugins Gui, and turn on and off the moodbar a couple of times.
+Then close the prefs plugin.  Endlessly repeating:
+
+    Original exception was:
+    RuntimeError: maximum recursion depth exceeded
+    Error in sys.excepthook:
+    RuntimeError: maximum recursion depth exceeded
+
+What's going on? How can I get more data?
