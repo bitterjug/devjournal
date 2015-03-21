@@ -926,6 +926,6 @@ There seem to be two dependencies: the
    and 
 
 - progress bar within the gui
-  - the default i
-
+  - the default exaile one is `exaile.gui.main.progress_bar` which is a `SeekProgressBar` object.
+  - the preview device plugin creates one of these :
 
