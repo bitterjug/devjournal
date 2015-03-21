@@ -897,9 +897,6 @@ know about:
 
 - [ ] Add .pyo to hidden files for vimfiler
 
-### 21:16
-
-
 
 ### 21:47
 
@@ -913,3 +910,22 @@ Then close the prefs plugin.  Endlessly repeating:
     RuntimeError: maximum recursion depth exceeded
 
 What's going on? How can I get more data?
+
+### 21:51
+
+
+
+Meanwhile stage one of my refactor doesn't seem to have broken anything.
+The next step is going to be a strategy for adding it to the preview device.
+
+There seem to be two dependencies: the
+
+ - player object. 
+   - The default exaile one is: `player.PLAYER`
+   - The preview one is: `PREVIEW_PLUGIN.player` IF the preview plugin is activated.
+   and 
+
+- progress bar within the gui
+  - the default i
+
+
