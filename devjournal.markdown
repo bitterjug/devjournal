@@ -896,3 +896,7 @@ know about:
 ### 20:40
 
 - [ ] Add .pyo to hidden files for vimfiler
+
+### 21:16
+
+
