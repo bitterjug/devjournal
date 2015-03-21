@@ -929,3 +929,12 @@ There seem to be two dependencies: the
   - the default exaile one is `exaile.gui.main.progress_bar` which is a `SeekProgressBar` object.
   - the preview device plugin creates one of these :
 
+
+### 23:51
+
+Ouch! What a headache?
+Apparetly at some point I installed a user-local copy of exaile and got local copies of the plugins dirs
+in `~/.local/share/exaile/plugins`. Deleting this directory means that whe I run `./exaile` in 
+`workspace/exaile` it tries to run the version of the plugins I have been messing with, not the
+ones from before.
+
