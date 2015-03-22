@@ -1028,8 +1028,3 @@ To get the preview plugin at any point in time, I'm thinking something like this
         preview_plugin = None
 
 
-
-
-### 21:06
-
-
