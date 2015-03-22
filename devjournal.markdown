@@ -987,6 +987,26 @@ So now Preview Device sends signals when it is enabled or disabled.
 Next is to make the moodbar attch to it.  Based on last night's ideas, I'm
 currently thinking:
 
+    
+    def enable(exaile):
+        enableMainMoodbar()
+
+        event.add_callback(
+            enablePreviewMoodbar,
+            'previewdevice_enabled'
+        )
+
+        event.add_callback(
+            disablePreviewMoodbar,
+            'previewdevice_disabled'
+        )
+
+        import previewdevice
+        if previewdevice.PREVIEW_PLUGIN:
+            enablePreviewMoodbar()
+
+        
+
 ### 20:09
 
 # Vim
