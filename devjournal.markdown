@@ -1019,7 +1019,7 @@ currently thinking:
 
 ### 21:00
 
-To get the preview plugin at any point in time
+To get the preview plugin at any point in time, I'm thinking something like this:
 
     try:
         import previewdevice
