@@ -974,7 +974,7 @@ We need to be able to creat the preview moodbar object lazily
 
 ### 19:51
 
-#Vim
+# Vim
 
 - [ ] Enable spell checking by default in vim windows of type `gitcommit`
 
@@ -986,3 +986,10 @@ So now Preview Device sends signals when it is enabled or disabled.
 
 Next is to make the moodbar attch to it.  Based on last night's ideas, I'm
 currently thinking:
+
+### 20:09
+
+# Vim
+
+- [ ] `set formatoptions+=t` in mardown buffers
+
