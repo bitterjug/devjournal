@@ -988,8 +988,8 @@ Next is to make the moodbar attch to it.  Based on last night's ideas, I'm
 currently thinking:
 
     
-    def enable(exaile):
-        enableMainMoodbar()
+    def _enable(exaile):
+        enableMainMoodbar(exaile)
 
         event.add_callback(
             enablePreviewMoodbar,
@@ -1001,9 +1001,6 @@ currently thinking:
             'previewdevice_disabled'
         )
 
-        import previewdevice
-        if previewdevice.PREVIEW_PLUGIN:
-            enablePreviewMoodbar()
 
         
 
@@ -1021,10 +1018,12 @@ currently thinking:
 
 To get the preview plugin at any point in time, I'm thinking something like this:
 
+
     try:
         import previewdevice
         preview_plugin = previewdevice.PREVIEW_PLUGIN
     except ImportError:
         preview_plugin = None
 
-
+    if preview_plugin:
+        enable_preview_moodbar(preview_plugin)
