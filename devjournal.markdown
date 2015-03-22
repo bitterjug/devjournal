@@ -1013,3 +1013,8 @@ currently thinking:
 
 - [ ] `set formatoptions+=t` in mardown buffers
 
+    try:
+        import previewdevice
+        preview_plugin = previewdevice.PREVIEW_PLUGIN
+    except ImportError:
+        preview_plugin = None
