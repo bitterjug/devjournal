@@ -875,7 +875,7 @@ know about:
         global ExModbar
         ExaileModbar.readMod('')
         ExaileModbar.setupUi()
-        ExaileModbar.setCallbacks()  # Or this could be done as part of setupUi??
+        ExaileModbar.setCallbacks()  
 
     ...
 
@@ -940,3 +940,34 @@ in `~/.local/share/exaile/plugins`. Deleting this directory means that whe I run
 `workspace/exaile` it tries to run the version of the plugins I have been messing with, not the
 ones from before.
 
+
+## 2015-03-22 Sunday
+
+### 00:06
+
+So we should now be able to make the setup do install on defalt player, 
+Check if the preview device is loaded. If so install on that too.
+
+Then we need to 
+- [ ] add setup and tear down events to the preview device,  something like:
+
+
+    def enable(exaile):
+        global ExaileModbar
+        ExaileModbar = ExModbar(
+            player=player.PLAYER
+            progress_bar=exaile.gui.main.progress_bar,
+        )
+
+        import previewdevice ## do we need to check if this is defined?
+        if previewdevice.PREVIEW_PLUGIN:
+            global ExailePreviewModbar
+            ExailePreviewModbar = ExModbar(
+                player=progress_bar.PREVIEW_PLUGIN.player,
+                progress_bar=previewdevice.PREVIEW_PLUGIN.progress_bar
+            )
+
+- [ ] and then attach the moodbar to those to attach when it gets created.
+- [ ] check for external dependancies like the file name the command line tool writs to.
+
+We need to be able to creat the preview moodbar object lazily 
