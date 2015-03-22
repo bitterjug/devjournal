@@ -967,7 +967,8 @@ Then we need to
             )
 
 - [ ] and then attach the moodbar to those to attach when it gets created.
-- [ ] check for external dependancies like the file name the command line tool writs to.
+- [ ] check for external dependancies like the file name the command line tool
+  writs to.
 
 We need to be able to creat the preview moodbar object lazily 
 
@@ -983,5 +984,5 @@ We need to be able to creat the preview moodbar object lazily
 
 So now Preview Device sends signals when it is enabled or disabled.
 
-Next is to make the moodbar attch to it.  Based on last night's ideas, I'm currently
-thinking:
+Next is to make the moodbar attch to it.  Based on last night's ideas, I'm
+currently thinking:
