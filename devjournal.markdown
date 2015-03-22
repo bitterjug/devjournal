@@ -920,14 +920,16 @@ The next step is going to be a strategy for adding it to the preview device.
 
 There seem to be two dependencies: the
 
- - player object. 
-   - The default exaile one is: `player.PLAYER`
-   - The preview one is: `PREVIEW_PLUGIN.player` IF the preview plugin is activated.
-   and 
+#### player object. 
+ - The default exaile one is: `player.PLAYER`
+ - The preview one is: `previewdevice.PREVIEW_PLUGIN.player` IF the preview
+   plugin is activated.  and 
 
-- progress bar within the gui
-  - the default exaile one is `exaile.gui.main.progress_bar` which is a `SeekProgressBar` object.
-  - the preview device plugin creates one of these :
+#### progress bar within the gui
+- the default exaile one is `exaile.gui.main.progress_bar` which is a
+  `SeekProgressBar` object.
+- the preview device plugin creates one of these and, as of my recent change,
+  stores it in `previewdevice.PREVIEW_PLUGIN.progress_bar`
 
 
 ### 23:51
