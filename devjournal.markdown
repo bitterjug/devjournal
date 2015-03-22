@@ -971,3 +971,9 @@ Then we need to
 - [ ] check for external dependancies like the file name the command line tool writs to.
 
 We need to be able to creat the preview moodbar object lazily 
+
+### 19:51
+
+#VIM
+
+- [ ] Enable spell checking by default in vim windows of type `gitcommit`
