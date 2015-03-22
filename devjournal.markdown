@@ -1013,8 +1013,19 @@ currently thinking:
 
 - [ ] `set formatoptions+=t` in mardown buffers
 
+### 21:00
+
+# Exaile
+
+### 21:00
+
+To get the preview plugin at any point in time
+
     try:
         import previewdevice
         preview_plugin = previewdevice.PREVIEW_PLUGIN
     except ImportError:
         preview_plugin = None
+
+
+
