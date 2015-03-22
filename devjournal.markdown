@@ -1027,3 +1027,13 @@ To get the preview plugin at any point in time, I'm thinking something like this
 
     if preview_plugin:
         enable_preview_moodbar(preview_plugin)
+
+### 23:49
+
+So the thing seems to be working, except that if you manually enable the
+preview device after the moodbar, it doesn't get decorated. I wonder why. I
+have the feeling the callbacks aren't getting called, which is annoying because
+they were back when all they did was call logging messages.  What changed?
+
+Maybe write to the list and ask for some help.
+
