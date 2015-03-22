@@ -957,8 +957,7 @@ Then we need to
         ExaileModbar = ExModbar(
             player=player.PLAYER
             progress_bar=exaile.gui.main.progress_bar,
-        )
-
+        ) 
         import previewdevice ## do we need to check if this is defined?
         if previewdevice.PREVIEW_PLUGIN:
             global ExailePreviewModbar
@@ -974,6 +973,15 @@ We need to be able to creat the preview moodbar object lazily
 
 ### 19:51
 
-#VIM
+#Vim
 
 - [ ] Enable spell checking by default in vim windows of type `gitcommit`
+
+### 19:52
+
+# Exaile
+
+So now Preview Device sends signals when it is enabled or disabled.
+
+Next is to make the moodbar attch to it.  Based on last night's ideas, I'm currently
+thinking:
