@@ -1037,3 +1037,34 @@ they were back when all they did was call logging messages.  What changed?
 
 Maybe write to the list and ask for some help.
 
+
+## 2015-03-30 Monday
+
+### 21:43
+
+Configuring UPNP Streaming pulseaidio .,
+
+1) install Rygel
+
+2) Use `paprefs` NetworkServer, make local sound devices available as DLNA/UpNP Media server
+  Create separate audio device for media streaming
+
+3) From [Stack Overflow][http://stackoverflow.com/questions/15548586/streaming-media-files-via-dlna-upnp]
+   use this to get the device name:
+
+    pactl list | egrep -A2 '^(\*\*\* )?Source #' | grep 'Name: .*\.monitor$' | awk '{print $NF}' | tail -n1
+
+   Whic for me was `upnp.monitor`.
+
+
+4) in ~/.config/rygel.conf:
+
+    [GstLaunch]
+    enable=true
+    launch-items=mypulseaudiosink
+
+    mypulseaudiosink-title=Audio on @HOSTNAME@
+    mypulseaudiosink-mime=audio/flac
+    mypulseaudiosink-launch=pulsesrc device=upnp.monitor ! flacenc
+
+Except that it doesn't seem to work
