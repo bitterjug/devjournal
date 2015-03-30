@@ -1060,7 +1060,7 @@ Configuring UPNP Streaming pulseaidio .,
 4) in ~/.config/rygel.conf:
 
     [GstLaunch]
-    enable=true
+    enabled=true
     launch-items=mypulseaudiosink
 
     mypulseaudiosink-title=Audio on @HOSTNAME@
@@ -1076,3 +1076,12 @@ From [here][https://wiki.gnome.org/Projects/Rygel/Pulseaudio]:
     $ sudo apt-get install rygel-gst-launch
 
 D'oh! Didn't have that installed. 
+
+### 22:22
+
+Finally change the first line of the config to:
+
+    [GstLaunch]
+    enabled=true
+
+And we can ding "Audio on Fuji" in the file manager on Kodi
