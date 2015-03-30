@@ -1068,3 +1068,11 @@ Configuring UPNP Streaming pulseaidio .,
     mypulseaudiosink-launch=pulsesrc device=upnp.monitor ! flacenc
 
 Except that it doesn't seem to work
+
+### 22:01
+
+From [here][https://wiki.gnome.org/Projects/Rygel/Pulseaudio]:
+
+    $ sudo apt-get install rygel-gst-launch
+
+D'oh! Didn't have that installed. 
