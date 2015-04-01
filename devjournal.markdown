@@ -1085,3 +1085,29 @@ Finally change the first line of the config to:
     enabled=true
 
 And we can ding "Audio on Fuji" in the file manager on Kodi
+
+# Exaile
+
+## 2015-04-01 Wednesday
+
+### 22:21
+
+## Plan for blog
+
+Transforming this... into this...
+
+Exaile is a wonderfl media player but it doesn't flaunt its features.
+Originally inspired by Amarok, it now distinguishes itself with some unique and
+powerfl features. Many of these features are provided as plugins and are not
+enabled by default. Some require some configuration.
+
+Even the [screen shots on the Exaile website][...] don't
+hint at its flexibility and power.
+
+The area where Exaile excells is making playlists on the fly. 
+- Drag and drop between multiple playlists open at one time
+- Split playlist view to make drag and drop even easier
+- Support for previewing tracks on one sound card while playing on another
+- Integrated BPM tapper, for main and preview devices
+- Moodbar/waveform view, to get a visual preview of the upcoming tracks
+
