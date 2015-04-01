@@ -1111,3 +1111,4 @@ The area where Exaile excells is making playlists on the fly.
 - Integrated BPM tapper, for main and preview devices
 - Moodbar/waveform view, to get a visual preview of the upcoming tracks
 
+
