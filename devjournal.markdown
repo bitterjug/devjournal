@@ -1112,3 +1112,16 @@ The area where Exaile excells is making playlists on the fly.
 - Moodbar/waveform view, to get a visual preview of the upcoming tracks
 
 
+
+## 2015-04-16 Thursday
+
+### 20:47
+
+Installed [`pulseaudio-dlna`][https://github.com/masmu/pulseaudio-dlna] in a
+virtual env as per the instructions, in `~/workspace/pulseaudio-dlna`.
+Run with:
+
+     bin/pulseaudio-dlna  --encoder flac
+
+To get lossless audio directly. Requires Revo running. Then select from 
+pulse audio control device.
