@@ -1125,3 +1125,21 @@ Run with:
 
 To get lossless audio directly. Requires Revo running. Then select from 
 pulse audio control device.
+
+## 2015-04-17 Friday
+
+### 09:10
+
+Thinking about writing an indicator applet for `pulseaudio-dlna` I started
+to look into Gobject Introspection.
+
+Here's a great [Arcive of documentation][https://lazka.github.io/pgi-docs/#Indicate-0.7/classes/Indicator.html#methods]
+generated from the C source. This is what the python bindings use to 
+provide the objects you interact with to talk to GTK/ Indicate, etc.
+
+So you can say:
+
+```python
+    from gi.archive import Indicate
+
+```
