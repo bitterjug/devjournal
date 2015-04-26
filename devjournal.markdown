@@ -1148,3 +1148,9 @@ So you can say:
 
 [Here][https://github.com/Kagee/pa-stream-sink-selector/blob/master/pa-stream-sink-selector.py] is an exampe
 app. And [tutorial][http://python-gtk-3-tutorial.readthedocs.org/en/latest/search.html?q=app&check_keywords=yes&area=default]
+
+## 2015-04-26 Sunday
+
+### 22:49
+
+- [ ] For some reason I'm not getting False, Ture and None highlighted in python sources in vim
