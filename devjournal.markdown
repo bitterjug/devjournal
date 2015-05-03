@@ -1071,7 +1071,7 @@ Except that it doesn't seem to work
 
 ### 22:01
 
-From [here][https://wiki.gnome.org/Projects/Rygel/Pulseaudio]:
+From [here](https://wiki.gnome.org/Projects/Rygel/Pulseaudio):
 
     $ sudo apt-get install rygel-gst-launch
 
@@ -1117,7 +1117,7 @@ The area where Exaile excells is making playlists on the fly.
 
 ### 20:47
 
-Installed [`pulseaudio-dlna`][https://github.com/masmu/pulseaudio-dlna] in a
+Installed [`pulseaudio-dlna`](https://github.com/masmu/pulseaudio-dlna) in a
 virtual env as per the instructions, in `~/workspace/pulseaudio-dlna`.
 Run with:
 
@@ -1133,7 +1133,7 @@ pulse audio control device.
 Thinking about writing an indicator applet for `pulseaudio-dlna` I started
 to look into Gobject Introspection.
 
-Here's a great [Arcive of documentation][https://lazka.github.io/pgi-docs/#Indicate-0.7/classes/Indicator.html#methods]
+Here's a great [Arcive of documentation](https://lazka.github.io/pgi-docs/#Indicate-0.7/classes/Indicator.html#methods)
 generated from the C source. This is what the python bindings use to 
 provide the objects you interact with to talk to GTK/ Indicate, etc.
 
@@ -1146,8 +1146,8 @@ So you can say:
 
 ### 09:34
 
-[Here][https://github.com/Kagee/pa-stream-sink-selector/blob/master/pa-stream-sink-selector.py] is an exampe
-app. And [tutorial][http://python-gtk-3-tutorial.readthedocs.org/en/latest/search.html?q=app&check_keywords=yes&area=default]
+[Here](https://github.com/Kagee/pa-stream-sink-selector/blob/master/pa-stream-sink-selector.py) is an exampe
+app. And [tutorial](http://python-gtk-3-tutorial.readthedocs.org/en/latest/search.html?q=app&check_keywords=yes&area=default)
 
 ## 2015-04-26 Sunday
 
